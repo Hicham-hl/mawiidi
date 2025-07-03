@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Mawiidi</title>
+</head>
+<body>
+    <div class="all">
+        <div class="head">
+            <img class="img1" src="menu.png">
+            <img class="img2" src="1.JPG">
+        </div>
+        
+        <div dir="rtl" class="bar">
+            <ul>
+                <li><img src="home.png" alt="">الرئسية</li>
+                <li>أخد موعد</li>
+                <li>تتبع مواعيدي</li>
+                <details>
+                    <summary> اللغة</summary> 
+                    <li> Français</li>
+                    <li>العربية</li>
+                </details> 
+            </ul>
+        </div>
+        <center>
+            <fieldset dir="rtl">
+                <p>  أخد مواعيد عبر الأنترنيت أو الهاتف .</p>
+                <br>
+                <p>هذا النظام الرقمب يعفيكم من كثرة التنقلات ومن النفقات المترتبة عنها وبالتالي يمكنكم من الاستغلال الأمثل لوقتكم ولطاقتكم .</p>
+                <button ><img src="Scores.png" > أخد موعد</button>
+                <button> <img src="more.png" > تتبع مواعيدي </button>
+            </fieldset>
+        </center>
+    </div> 
+</body>
+<script>
+    let bntBar = document.querySelector('.img1');
+    let bar = document.querySelector('.bar');
+    let bar2 = document.querySelector('.bar2');
+    
+    bntBar.onclick =function(){
+    bar.classList.toggle('bar2')
+    }
+</script>
+</html>
