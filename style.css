@@ -97,3 +97,8 @@ fieldset button:hover{
     color: rgb(218, 231, 27);
     background-color: rgb(117, 72, 13);
 }
+.foot del{
+    width: 30px;
+    color: darkslateblue;
+    background-color: darkred;
+}
